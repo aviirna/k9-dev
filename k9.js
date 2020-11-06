@@ -1,8 +1,17 @@
 const Kiss = require("kiss-ssg");
 const kiss = new Kiss();
 
-kiss.page({
-  view: "junior-course.hbs",
-  title: "Junior School",
-  model: "junior-course.json",
-});
+kiss.pages(
+  {
+    view: "course.hbs",
+    model: "courses",
+    nav: true,
+  },
+  ({ model }) => {
+    return {
+      slug: model.slug,
+      title: model.title,
+      model: model,
+    };
+  }
+);

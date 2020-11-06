@@ -9,7 +9,8 @@
   "engagement": "Engagement Training",
   "hero": "../src/images/junior-course-v3.png",
   "team": "../src/images/junior-v1.png",
-  "dog": "../src/images/mbali-v1.jpg"
+  "dog": "../src/images/mbali-v1.jpg",
+  "page-heading": "You Will Learn"
  },
  "config": {
   "folders": {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "kiss-ssg.js",
   "dependencies": {
-    "kiss-ssg": "^0.1.5"
+    "kiss-ssg": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
