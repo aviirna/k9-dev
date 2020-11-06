@@ -1,0 +1,21 @@
+{
+ "view": "junior-course.hbs",
+ "title": "Junior School",
+ "model": {
+  "view": "junior-course.hbs",
+  "title": "Junior Dog Training Course",
+  "carousel-heading": "Junior School",
+  "carousel-text": "The junior course is especially developed for young puppies between the ages of 5 to 9 months and is suitable for all breeds of dogs it is a natural progression from puppy classes.",
+  "engagement": "Engagement Training"
+ },
+ "config": {
+  "folders": {
+   "src": "./src",
+   "layouts": "./src/layouts",
+   "pages": "./src/pages",
+   "components": "./src/components",
+   "models": "./src/models",
+   "build": "./public"
+  }
+ }
+}
