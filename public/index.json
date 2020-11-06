@@ -1,0 +1,17 @@
+{
+ "view": "index.hbs",
+ "title": "My Page Title",
+ "model": {
+  "name": "Courtenay Probert"
+ },
+ "config": {
+  "folders": {
+   "src": "./src",
+   "layouts": "./src/layouts",
+   "pages": "./src/pages",
+   "components": "./src/components",
+   "models": "./src/models",
+   "build": "./public"
+  }
+ }
+}
