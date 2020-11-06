@@ -18,5 +18,5 @@ kiss
   )
   .page({
     view: "index.hbs",
-    model: "index",
+    model: "index.json",
   });
