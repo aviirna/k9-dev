@@ -15,4 +15,8 @@ kiss
         model: model,
       };
     }
-  );
+  )
+  .page({
+    view: "index.hbs",
+    model: "index",
+  });
